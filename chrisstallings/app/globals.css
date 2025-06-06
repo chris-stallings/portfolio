@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 @plugin "daisyui"{
-  themes: business --default;
+  themes: light --default, dark --prefersdark, business;
   root: ":root";
   base: true;
   styled: true;

@@ -2,7 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+  <aside className="items-center">
+    <p>Copyright © {new Date().getFullYear()} - All right reserved by Chris Stallings</p>
+  </aside>
+</footer>
   )
 }
 
